@@ -313,10 +313,10 @@ ol {
     padding-bottom: 50px;
 }
 
-.section-heading > i {
-    font-size: 60px;
+.section-heading > img {
     color: #66A5CC;
     margin-bottom: 10px;
+    width: 5%;
 }
 
 .section-heading > h2 {
@@ -862,12 +862,8 @@ ol {
     z-index: 1;
 }
 
-.video_text_icon > h6 {
-    color: #fff;
-    font-size: 24px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-}
+
+
 
 .video_text_icon > p {
     color: #fff;
