@@ -1,722 +1,909 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
+    <!-- Title -->
+    <title>Bizconic</title>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    
-        <!-- Title -->
-        <title>Bizconic</title>
-    
-        <!-- Favicon -->
-        <link rel="icon" href="./img/core-img/favicon.svg">
-    
-        <!-- Core Stylesheet -->
-        <link href="./style.css" rel="stylesheet">
-    
-        <!-- Responsive CSS -->
-        <link href="./css/responsive.css" rel="stylesheet">
-    
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Permanent+Marker&display=swap" rel="stylesheet">
-    
-    </head>
-    <body>
-        <!-- Preloader Start -->
-        <div id="preloader">
-            <div class="preload-content">
-                <div id="fancy-load"></div>
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon.svg" />
+
+    <!-- Core Stylesheet -->
+    <link href="./style.css" rel="stylesheet" />
+
+    <!-- Responsive CSS -->
+    <link href="./css/responsive.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+      <div class="preload-content">
+        <div id="fancy-load"></div>
+      </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area bg-light">
+      <div class="classy-nav-container breakpoint-off">
+        <div class="container">
+          <!-- Classy Menu -->
+          <nav class="classy-navbar justify-content-between" id="classyNav">
+            <!-- Logo -->
+            <a class="nav-brand" href="index.html"
+              ><img src="./img/core-img/logo.png" alt=""
+            /></a>
+
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+              <span class="navbarToggler"
+                ><span></span><span></span><span></span
+              ></span>
             </div>
+
+            <!-- Menu -->
+            <div class="classy-menu">
+              <!-- close btn -->
+              <div class="classycloseIcon">
+                <div class="cross-wrap">
+                  <span class="top"></span><span class="bottom"></span>
+                </div>
+              </div>
+
+              <!-- Nav Start -->
+              <div class="classynav">
+                <ul id="nav">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#service">Service</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+              <!-- Nav End -->
+            </div>
+          </nav>
         </div>
-        <!-- Preloader End -->
-    
-        <!-- ***** Header Area Start ***** -->
-        <header class="header-area bg-light">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Classy Menu -->
-                    <nav class="classy-navbar justify-content-between" id="classyNav">
-    
-                        <!-- Logo -->
-                        <a class="nav-brand" href="index.html"><img src="./img/core-img/logo.png" alt=""></a>
-    
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-    
-                        <!-- Menu -->
-                        <div class="classy-menu">
-    
-                            <!-- close btn -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-    
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul id="nav">
-                                    <li><a href="#">Home</a>
-                                    </li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#service">Service</a></li>
-                                    <li><a href="#contact">Contact</a></li>
-                                </ul>
-                            </div>
-                            <!-- Nav End -->
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <!-- ***** Header Area End ***** -->
-    
-        <!-- ***** Wellcome Area Start ***** -->
-        <section class="welcome_area height-1000 bg-fixed clearfix bg-img bg-overlay1" style="background-image: url(./img/bg-img/bg-12.jpg);">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <!-- Welcome Text -->
-                    <div class="col-12">
-                        <div class="welcome-text">
-                            <h2>BIZCONIC - <br> The Right Space For Successful Entrepreneur</h2>
-                            <p></p>
-                            <a href="#" class="welcome-btn mt-15">Get Our Service</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="our_service_area section_padding_90_50 clearfix" id="service">
-            <div class="container">
-                <div class="row">
-                    <!-- Heading Text -->
-                    <div class="col-12">
-                        <div class="section-heading text-center">
-                             <img src="./img/core-img/favicon.svg" alt="">
-                            <h2>Our Core Services</h2>
-                           
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!--  Single Service Content -->
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="single_service_content wow fadeInUp" data-wow-delay="0.2s">
-                            <!-- Icon -->
-                            <div class="service_icon">
-                                <i class="fa fa-diamond" aria-hidden="true"></i>
-                            </div>
-                            <div class="service_text">
-                                <h5>Company Formation</h5>
-                                <p> Focus on maturing Business indulge with business education, training, leisure activities so on.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--  Single Service Content -->
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="single_service_content wow fadeInUp" data-wow-delay="0.4s">
-                            <!-- Icon -->
-                            <div class="service_icon">
-                                <i class="fa fa-desktop" aria-hidden="true"></i>
-                            </div>
-                            <div class="service_text">
-                                <h5>Trade Solutions</h5>
-                                <p>Export, import guidance and assistance </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--  Single Service Content -->
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="single_service_content wow fadeInUp" data-wow-delay="0.6s">
-                            <!-- Icon -->
-                            <div class="service_icon">
-                                <i class="fa fa-wordpress" aria-hidden="true"></i>
-                            </div>
-                            <div class="service_text">
-                                <h5>Brand Building</h5>
-                                <p> Creating a specific name, logo, and an image of a particular product, service or company.  </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--  Single Service Content -->
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="single_service_content wow fadeInUp" data-wow-delay="0.8s">
-                            <!-- Icon -->
-                            <div class="service_icon">
-                                <i class="fa fa-bar-chart" aria-hidden="true"></i>
-                            </div>
-                            <div class="service_text">
-                                <h5>Business Facility
-                                    Management</h5>
-                                <p>Human Resource management ( staff training, recruitment, payrolls)
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--  Single Service Content -->
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="single_service_content wow fadeInUp" data-wow-delay="1s">
-                            <!-- Icon -->
-                            <div class="service_icon">
-                                <i class="fa fa-sitemap" aria-hidden="true"></i>
-                            </div>
-                            <div class="service_text">
-                                <h5>Consultant</h5>
-                                <p>Help clients achieve their business goals by providing expert advice in their field of proficiency </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--  Single Service Content -->
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="single_service_content wow fadeInUp" data-wow-delay="1.2s">
-                            <!-- Icon -->
-                            <div class="service_icon">
-                                <i class="fa fa-headphones" aria-hidden="true"></i>
-                            </div>
-                            <div class="service_text">
-                                <h5>24h Support</h5>
-                                <p>Customers can get help and find answers to questions as soon as they come up—24/7 and in real-time. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- ***** Wellcome Area Start ***** -->
+    <section
+      class="welcome_area height-1000 bg-fixed clearfix bg-img bg-overlay1"
+      style="background-image: url(./img/bg-img/bg-12.jpg)"
+    >
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <!-- Welcome Text -->
+          <div class="col-12">
+            <div class="welcome-text">
+              <h2>
+                BIZCONIC - <br />
+                The Right Space For Successful Entrepreneur
+              </h2>
+              <p></p>
+              <a href="#" class="welcome-btn mt-15">Get Our Service</a>
             </div>
-        </section>
-        <!-- ***** Our Services Area End *****  -->
-    
-        
-    
-        <!-- ***** About Us Area Start *****  -->
-        <section class="about_us_area section_padding_90_100 clearfix" id="about">
-            <div class="container">
-                <div class="row">
-                    <!-- Heading Text -->
-                    <div class="col-12">
-                        <div class="section-heading text-center">
-                            <img src="./img/core-img/favicon.svg" alt="">
-                            <h2>ABOUT BIZCONIC </h2>
-                            
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-6">
-                        <!-- thumb -->
-                        <div class="about_us_thumb">
-                            <img src="./img/bg-img/about-1.jpg" alt="">
-                        </div>
-                        <!-- thumb -->
-                        <div class="about_us_thumb_2">
-                            <img src="img/bg-img/about-2.jpg" alt="">
-                        </div>
-                    </div>
-    
-                    <div class="col-12 col-md-6">
-                        <!-- About us Content -->
-                        <div class="about_us_content">
-                            <h2>Welcome To Bizconic - 
-                                 The Complete Solution of Business</h2>
-                            <p>Bizconic Business Solutions is a leading
-                                Business Consultant in the United
-                                Kingdom offering the best services in
-                                helping aspiring entrepreneurs to set up
-                                businesses across the UK.
-                                <br>
-                                We help companies scale in a rapidly
-                                changing landscape. Our entrepreneurial
-                                approach and passion for innovation
-                                mean we always see the future coming.
-                                </p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="our_service_area section_padding_90_50 clearfix"
+      id="service"
+    >
+      <div class="container">
+        <div class="row">
+          <!-- Heading Text -->
+          <div class="col-12">
+            <div class="section-heading text-center">
+              <img src="./img/core-img/favicon.svg" alt="" />
+              <h2>Our Core Services</h2>
             </div>
-            <!-- Side Image -->
-            <div class="side_iamge">
-                <img src="img/bg-img/side-1.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <!--  Single Service Content -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="single_service_content wow fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <!-- Icon -->
+              <div class="service_icon">
+                <i class="fa fa-diamond" aria-hidden="true"></i>
+              </div>
+              <div class="service_text">
+                <h5>Company Formation</h5>
+                <p>
+                  Focus on maturing Business indulge with business education,
+                  training, leisure activities so on.
+                </p>
+              </div>
             </div>
-        </section>
-        <!-- ***** About Us Area End *****  -->
-    
-        <!-- ***** How We Work Area Start *****  -->
-       
-        <!-- ***** How We Work Area End *****  -->
-    
-        
-    
-        <!-- ***** Pricing Table Start ***** -->
-        <section class="our_price_table_area section_padding_90_70">
-           
-        </section>
-        <!-- ***** Pricing Table End ***** -->
-    
-        <!-- ***** Video & Some Faq Area Start *****  -->
-        <section class="video_area_and_some_fact_area clearfix d-md-flex clearfix">
-            <!-- Video Area -->
-            <div class="video_area bg-img d-flex justify-content-center align-items-center" style="background-image: url(./img/bg-img/faq.png)">
-                <div class="video_text_icon text-center">
-                    
-                    
-                </div>
+          </div>
+          <!--  Single Service Content -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="single_service_content wow fadeInUp"
+              data-wow-delay="0.4s"
+            >
+              <!-- Icon -->
+              <div class="service_icon">
+                <i class="fa fa-desktop" aria-hidden="true"></i>
+              </div>
+              <div class="service_text">
+                <h5>Trade Solutions</h5>
+                <p>Export, import guidance and assistance</p>
+              </div>
             </div>
-            <!-- Some Fact Area -->
-            <div class="some_fact_area d-flex align-items-center section_padding_90_100">
-                <div class="faq-title">
-                    <h2>Some of our Company faq</h2>
-                </div>
-    
-                <!-- FAQ Area Start -->
-                <div class="dream-faq-area">
-                    <div class="fact_details">
-                        <dl>
-                            <!-- Single FAQ Area -->
-                            <dt><span><span>01</span></span> How to manage your business 
-                                ?</dt>
-                            <dd>
-                                <p>Lorem ipsum dolor sit amet, tempus integer commodo gravida elit, odio iaculisutate luctus platea, in sedviva mus, elit praesent nec est prtium odio iaculisutate platea, in sedviva mus, elit praesent nec est prtium odio iaculisutate</p>
-                            </dd>
-    
-                            <!-- Single FAQ Area -->
-                            <dt><span><span>02</span></span> How to start a business 
-                                ?</dt>
-                            <dd>
-                                <p>Lorem ipsum dolor sit amet, tempus integer commodo gravida elit, odio iaculisutate luctus platea, in sedviva mus, elit praesent nec est prtium odio iaculisutate platea, in sedviva mus, elit praesent nec est prtium odio iaculisutate</p>
-                            </dd>
-    
-                            <!-- Single FAQ Area -->
-                            <dt><span><span>03</span></span>What kind of services we get ?</dt>
-                            <dd>
-                                <p>Lorem ipsum dolor sit amet, tempus integer commodo gravida elit, odio iaculisutate luctus platea, in sedviva mus, elit praesent nec est prtium odio iaculisutate platea, in sedviva mus, elit praesent nec est prtium odio iaculisutate</p>
-                            </dd>
-    
-                            <!-- Single FAQ Area -->
-                            <dt ><span><span>04</span></span>How get more profit ?</dt>
-                            <dd>
-                                <p>Lorem ipsum dolor sit amet, tempus integer commodo gravida elit, odio iaculisutate luctus platea, in sedviva mus, elit praesent nec est prtium odio iaculisutate platea, in sedviva mus, elit praesent nec est prtium odio iaculisutate</p>
-                            </dd>
-                        </dl>
-                    </div>
-                </div>
+          </div>
+          <!--  Single Service Content -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="single_service_content wow fadeInUp"
+              data-wow-delay="0.6s"
+            >
+              <!-- Icon -->
+              <div class="service_icon">
+                <i class="fa fa-wordpress" aria-hidden="true"></i>
+              </div>
+              <div class="service_text">
+                <h5>Brand Building</h5>
+                <p>
+                  Creating a specific name, logo, and an image of a particular
+                  product, service or company.
+                </p>
+              </div>
             </div>
-        </section>
-        <!-- ***** Video & Some Faq Area End *****  -->
-    
-        <!-- ***** Our Portfolio Area Start *****  -->
-        <section class="our_creative_portfolio section_padding_90_0 clearfix" id="gallery">
-            <div class="container">
-                <div class="row">
-                    <!-- Heading Text -->
-                    <div class="col-12">
-                        <div class="section-heading text-center">
-                            <i class="fa fa-snowflake-o" aria-hidden="true"></i>
-                            <h2>Recent Creative Work</h2>
-                            
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <!--  Single Service Content -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="single_service_content wow fadeInUp"
+              data-wow-delay="0.8s"
+            >
+              <!-- Icon -->
+              <div class="service_icon">
+                <i class="fa fa-bar-chart" aria-hidden="true"></i>
+              </div>
+              <div class="service_text">
+                <h5>Business Facility Management</h5>
+                <p>
+                  Human Resource management ( staff training, recruitment,
+                  payrolls)
+                </p>
+              </div>
             </div>
-            <!-- Gallery Menu -->
-            <div class="gallery_menu">
-                <div class="text-center portfolio-menu">
-                    <button class="active btn btn-md" type="button" data-filter="*">All Project</button>
-                    <button class="btn btn-md" type="button" data-filter=".gra">Trade</button>
-                    <button class="btn btn-md" type="button" data-filter=".mob">Brand</button>
-                    <button class="btn btn-md" type="button" data-filter=".web">Business</button>
-                </div>
+          </div>
+          <!--  Single Service Content -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="single_service_content wow fadeInUp"
+              data-wow-delay="1s"
+            >
+              <!-- Icon -->
+              <div class="service_icon">
+                <i class="fa fa-sitemap" aria-hidden="true"></i>
+              </div>
+              <div class="service_text">
+                <h5>Consultant</h5>
+                <p>
+                  Help clients achieve their business goals by providing expert
+                  advice in their field of proficiency
+                </p>
+              </div>
             </div>
-    
-            <div class="gallery_full_width_images_area clearfix">
-    
-                <!-- Single gallery Item -->
-                <div class="room oth portfolio_gallery_iteam">
-                    <img src="img/project-img/pro-1.jpg" alt="">
-                    <!-- single Content-->
-                    <div class="single_content">
-                        <!-- Border Layer -->
-                        <div class="border-layer">
-                            <div class="fancy-table">
-                                <div class="fancy-table-cell">
-                                    <!-- Project Title-->
-                                    <div class="project_title text-center">
-                                        <div class="image_zoom_in">
-                                            <a class="gallery_img" href="img/project-img/pro-1.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                                        </div>
-                                        <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single gallery Item -->
-                <div class="gra web portfolio_gallery_iteam">
-                    <img src="img/project-img/pro-2.jpg" alt="">
-                    <!-- single Content-->
-                    <div class="single_content">
-                        <!-- Border Layer -->
-                        <div class="border-layer">
-                            <div class="fancy-table">
-                                <div class="fancy-table-cell">
-                                    <!-- Project Title-->
-                                    <div class="project_title text-center">
-                                        <div class="image_zoom_in">
-                                            <a class="gallery_img" href="img/project-img/pro-2.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                                        </div>
-                                        <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single gallery Item -->
-                <div class="gra oth portfolio_gallery_iteam">
-                    <img src="img/project-img/pro-5.jpg" alt="">
-                    <!-- single Content-->
-                    <div class="single_content">
-                        <!-- Border Layer -->
-                        <div class="border-layer">
-                            <div class="fancy-table">
-                                <div class="fancy-table-cell">
-                                    <!-- Project Title-->
-                                    <div class="project_title text-center">
-                                        <div class="image_zoom_in">
-                                            <a class="gallery_img" href="img/project-img/pro-3.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                                        </div>
-                                        <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single gallery Item -->
-                <div class="mob web portfolio_gallery_iteam">
-                    <img src="img/project-img/pro-7.jpg" alt="">
-                    <!-- single Content-->
-                    <div class="single_content">
-                        <!-- Border Layer -->
-                        <div class="border-layer">
-                            <div class="fancy-table">
-                                <div class="fancy-table-cell">
-                                    <!-- Project Title-->
-                                    <div class="project_title text-center">
-                                        <div class="image_zoom_in">
-                                            <a class="gallery_img" href="img/project-img/pro-4.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                                        </div>
-                                        <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single gallery Item -->
-                <div class="gra oth portfolio_gallery_iteam">
-                    <img src="img/project-img/pro-6.jpg" alt="">
-                    <!-- single Content-->
-                    <div class="single_content">
-                        <!-- Border Layer -->
-                        <div class="border-layer">
-                            <div class="fancy-table">
-                                <div class="fancy-table-cell">
-                                    <!-- Project Title-->
-                                    <div class="project_title text-center">
-                                        <div class="image_zoom_in">
-                                            <a class="gallery_img" href="img/project-img/pro-5.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                                        </div>
-                                        <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single gallery Item -->
-                <div class="mob oth portfolio_gallery_iteam">
-                    <img src="img/project-img/pro-5.jpg" alt="">
-                    <!-- single Content-->
-                    <div class="single_content">
-                        <!-- Border Layer -->
-                        <div class="border-layer">
-                            <div class="fancy-table">
-                                <div class="fancy-table-cell">
-                                    <!-- Project Title-->
-                                    <div class="project_title text-center">
-                                        <div class="image_zoom_in">
-                                            <a class="gallery_img" href="img/project-img/pro-5.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                                        </div>
-                                        <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single gallery Item -->
-                <div class="mob web portfolio_gallery_iteam">
-                    <img src="img/project-img/pro-4.jpg" alt="">
-                    <!-- single Content-->
-                    <div class="single_content">
-                        <!-- Border Layer -->
-                        <div class="border-layer">
-                            <div class="fancy-table">
-                                <div class="fancy-table-cell">
-                                    <!-- Project Title-->
-                                    <div class="project_title text-center">
-                                        <div class="image_zoom_in">
-                                            <a class="gallery_img" href="img/project-img/pro-4.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                                        </div>
-                                        <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single gallery Item -->
-                <div class="mob oth portfolio_gallery_iteam">
-                    <img src="img/project-img/pro-3.jpg" alt="">
-                    <!-- single Content-->
-                    <div class="single_content">
-                        <!-- Border Layer -->
-                        <div class="border-layer">
-                            <div class="fancy-table">
-                                <div class="fancy-table-cell">
-                                    <!-- Project Title-->
-                                    <div class="project_title text-center">
-                                        <div class="image_zoom_in">
-                                            <a class="gallery_img" href="img/project-img/pro-3.jpg"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                                        </div>
-                                        <a href="#">View project<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <!--  Single Service Content -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="single_service_content wow fadeInUp"
+              data-wow-delay="1.2s"
+            >
+              <!-- Icon -->
+              <div class="service_icon">
+                <i class="fa fa-headphones" aria-hidden="true"></i>
+              </div>
+              <div class="service_text">
+                <h5>24h Support</h5>
+                <p>
+                  Customers can get help and find answers to questions as soon
+                  as they come up—24/7 and in real-time.
+                </p>
+              </div>
             </div>
-        </section>
-        <!-- ***** Our Portfolio Area End *****  -->
-    
-        
-    
-        <!-- ***** Clients Words Area Start ***** -->
-        
-        <!-- ***** Clients Words Area End ***** -->
-    
-        <!-- *****  Our Blog Area Start *****  -->
-        
-        <!-- *****  Our Blog Area End *****  -->
-    
-        <!-- *****  Our partner Area Start *****  -->
-        
-        <!-- *****  Our partner Area End *****  -->
-    
-        
-    
-        <!-- ***** Contact Area End *****  -->
-        <section class="contact_us_area section_padding_90_0" id="contact">
-            <div class="container">
-                <div class="row">
-                    <!-- Heading Text -->
-                    <div class="col-12">
-                        <div class="section-heading text-center">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <h2>Get In Touch</h2>
-                            
-                        </div>
-                    </div>
-                </div>
-    
-    
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-9">
-                        <!-- Contact Form -->
-                        <div class="contact_from_area clearfix">
-                            <div class="contact_form">
-                                <form action="" method="post" id="main_contact_form">
-                                    <div class="contact_input_area">
-                                        <div id="success_fail_info"></div>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <div class="conatct_heading">
-                                                    <h2>Drop Line Here</h2>
-                                                </div>
-                                            </div>
-                                            <!-- Form Group -->
-                                            <div class="col-12 col-md-6">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
-                                                </div>
-                                            </div>
-                                            <!-- Form Group -->
-                                            <div class="col-12 col-md-6">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="number" id="number" placeholder="Number *" required>
-                                                </div>
-                                            </div>
-                                            <!-- Form Group -->
-                                            <div class="col-12 col-md-6">
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" required>
-                                                </div>
-                                            </div>
-                                            <!-- Form Group -->
-                                            <div class="col-12 col-md-6">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                                                </div>
-                                            </div>
-                                            <!-- Form Group -->
-                                            <div class="col-12">
-                                                <div class="form-group">
-                                                    <textarea name="message" class="form-control" id="message" cols="30" rows="8" placeholder="Your Message *" required></textarea>
-                                                </div>
-                                            </div>
-                                            <!-- Button -->
-                                            <div class="col-12">
-                                                <button type="submit" class="fancy-btn">Send Now</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-12 col-md-3">
-                        <div class="contact_deatils">
-                            <!-- Content Info -->
-                            <div class="contact_info_area">
-                                <div class="contact_info">
-                                    <i class="icofont icofont-social-google-map"></i>
-                                    <h5>Location</h5>
-                                    <p>MBR international Ltd
-                                        Portaland close, London,
-                                        United Kingdom SL2 2LT</p>
-                                </div>
-                                <!-- Content Info -->
-                                <div class="contact_info">
-                                    <i class="icofont icofont-email"></i>
-                                    <h5>E-mail</h5>
-                                    <p>info@bizconic.com</p>
-                                </div>
-                                <!-- Content Info -->
-                                <div class="contact_info">
-                                    <i class="icofont icofont-ui-dial-phone"></i>
-                                    <h5>Phone</h5>
-                                    <p>+44 7459 785372</p>
-                                </div>
-                                <!-- Icon -->
-                                <div class="footer_social_icon">
-                                    <a href="https://www.facebook.com/Bizconic-Business-Solutions-100754286139214/"><i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
-                                    
-                                    <a href="https://instagram.com/bizconic123?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Instagram"></i></a>
-                                    <a href="https://www.linkedin.com/in/bizconic-business-solutions-b61971250"><i class="fa fa-linkedin" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="single_service_content wow fadeInUp"
+              data-wow-delay="1.2s"
+            >
+              <!-- Icon -->
+              <div class="service_icon">
+                <i class="fa fa-headphones" aria-hidden="true"></i>
+              </div>
+              <div class="service_text">
+                <h5>Digital Marketing</h5>
+                <p>
+                  Brand promotion to reach potential customers online and
+                  through other digital communication channels.
+                </p>
+              </div>
             </div>
-    
-            <!-- Google Maps -->
-           <div>
-            <br>
-           </div>
-        </section>
-        <!-- ***** Contact Area End *****  -->
-    
-        <!-- ***** Bottom Footer Area Start *****  -->
-        <div class="bottom-footer-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="footer_area">
-                            <!-- Footer Text -->
-                            <div class="copywrite_text text-center">
-                                <p>Made With <i class="fa fa-heart"></i> by Kalifo</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="single_service_content wow fadeInUp"
+              data-wow-delay="1.2s"
+            >
+              <!-- Icon -->
+              <div class="service_icon">
+                <i class="fa fa-sign-language" aria-hidden="true"></i>
+              </div>
+              <div class="service_text">
+                <h5>Business leisure Activities and Business Events</h5>
+                <p>
+                  A definable occurrence in a business scenario. It can be a
+                  common high-level occurrence, such as a customer placing an
+                  order.
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="single_service_content wow fadeInUp"
+              data-wow-delay="1.2s"
+            >
+              <!-- Icon -->
+              <div class="service_icon">
+                <i class="fa fa-hourglass-half" aria-hidden="true"></i>
+              </div>
+              <div class="service_text">
+                <h5>HR solutions</h5>
+                <p>Focus on your Business, Reduce Cost and Limit Liability</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Our Services Area End *****  -->
+
+    <!-- ***** About Us Area Start *****  -->
+    <section class="about_us_area section_padding_90_100 clearfix" id="about">
+      <div class="container">
+        <div class="row">
+          <!-- Heading Text -->
+          <div class="col-12">
+            <div class="section-heading text-center">
+              <img src="./img/core-img/favicon.svg" alt="" />
+              <h2>ABOUT BIZCONIC</h2>
+            </div>
+          </div>
         </div>
 
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <!-- thumb -->
+            <div class="about_us_thumb">
+              <img src="./img/award bizconic.jpg" alt="" />
+            </div>
+            <!-- thumb -->
+            <div class="about_us_thumb_2">
+              <img src="img/bg-img/about-2.jpg" alt="" />
+            </div>
+          </div>
 
+          <div class="col-12 col-md-6">
+            <!-- About us Content -->
+            <div class="about_us_content">
+              <h2>Welcome To Bizconic - The Complete Solution of Business</h2>
+              <p>
+                Bizconic Business Solutions is a leading Business Consultant in
+                the United Kingdom offering the best services in helping
+                aspiring entrepreneurs to set up businesses across the UK.
+                <br />
+                We help companies scale in a rapidly changing landscape. Our
+                entrepreneurial approach and passion for innovation mean we
+                always see the future coming.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Side Image -->
+      <div class="side_iamge">
+        <img src="img/bg-img/side-1.png" alt="" />
+      </div>
+    </section>
+    <!-- ***** About Us Area End *****  -->
 
+    <!-- ***** How We Work Area Start *****  -->
 
+    <!-- ***** How We Work Area End *****  -->
 
+    <!-- ***** Pricing Table Start ***** -->
+    <section class="our_price_table_area section_padding_90_70"></section>
+    <!-- ***** Pricing Table End ***** -->
 
+    <!-- ***** Video & Some Faq Area Start *****  -->
+    <section class="video_area_and_some_fact_area clearfix d-md-flex clearfix">
+      <!-- Video Area -->
+      <div
+        class="video_area bg-img d-flex justify-content-center align-items-center"
+        style="background-image: url(./img/bg-img/faq.png)"
+      >
+        <div class="video_text_icon text-center"></div>
+      </div>
+      <!-- Some Fact Area -->
+      <div
+        class="some_fact_area d-flex align-items-center section_padding_90_100"
+      >
+        <div class="faq-title">
+          <h2>Some of our Company faq</h2>
+        </div>
 
+        <!-- FAQ Area Start -->
+        <div class="dream-faq-area">
+          <div class="fact_details">
+            <dl>
+              <!-- Single FAQ Area -->
+              <dt>
+                <span><span>01</span></span> How to manage your business ?
+              </dt>
+              <dd>
+                <p>
+                  Lorem ipsum dolor sit amet, tempus integer commodo gravida
+                  elit, odio iaculisutate luctus platea, in sedviva mus, elit
+                  praesent nec est prtium odio iaculisutate platea, in sedviva
+                  mus, elit praesent nec est prtium odio iaculisutate
+                </p>
+              </dd>
 
+              <!-- Single FAQ Area -->
+              <dt>
+                <span><span>02</span></span> How to start a business ?
+              </dt>
+              <dd>
+                <p>
+                  Lorem ipsum dolor sit amet, tempus integer commodo gravida
+                  elit, odio iaculisutate luctus platea, in sedviva mus, elit
+                  praesent nec est prtium odio iaculisutate platea, in sedviva
+                  mus, elit praesent nec est prtium odio iaculisutate
+                </p>
+              </dd>
 
+              <!-- Single FAQ Area -->
+              <dt>
+                <span><span>03</span></span
+                >What kind of services we get ?
+              </dt>
+              <dd>
+                <p>
+                  Lorem ipsum dolor sit amet, tempus integer commodo gravida
+                  elit, odio iaculisutate luctus platea, in sedviva mus, elit
+                  praesent nec est prtium odio iaculisutate platea, in sedviva
+                  mus, elit praesent nec est prtium odio iaculisutate
+                </p>
+              </dd>
 
+              <!-- Single FAQ Area -->
+              <dt>
+                <span><span>04</span></span
+                >How get more profit ?
+              </dt>
+              <dd>
+                <p>
+                  Lorem ipsum dolor sit amet, tempus integer commodo gravida
+                  elit, odio iaculisutate luctus platea, in sedviva mus, elit
+                  praesent nec est prtium odio iaculisutate platea, in sedviva
+                  mus, elit praesent nec est prtium odio iaculisutate
+                </p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Video & Some Faq Area End *****  -->
 
+    <!-- ***** Our Portfolio Area Start *****  -->
+    <section
+      class="our_creative_portfolio section_padding_90_0 clearfix"
+      id="gallery"
+    >
+      <div class="container">
+        <div class="row">
+          <!-- Heading Text -->
+          <div class="col-12">
+            <div class="section-heading text-center">
+              <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+              <h2>Recent Creative Work</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Gallery Menu -->
+      <div class="gallery_menu">
+        <div class="text-center portfolio-menu">
+          <button class="active btn btn-md" type="button" data-filter="*">
+            All Project
+          </button>
+          <button class="btn btn-md" type="button" data-filter=".gra">
+            Trade
+          </button>
+          <button class="btn btn-md" type="button" data-filter=".mob">
+            Brand
+          </button>
+          <button class="btn btn-md" type="button" data-filter=".web">
+            Business
+          </button>
+        </div>
+      </div>
 
+      <div class="gallery_full_width_images_area clearfix">
+        <!-- Single gallery Item -->
+        <div class="room oth portfolio_gallery_iteam">
+          <img src="img/project-img/pro-1.jpg" alt="" />
+          <!-- single Content-->
+          <div class="single_content">
+            <!-- Border Layer -->
+            <div class="border-layer">
+              <div class="fancy-table">
+                <div class="fancy-table-cell">
+                  <!-- Project Title-->
+                  <div class="project_title text-center">
+                    <div class="image_zoom_in">
+                      <a class="gallery_img" href="img/project-img/pro-1.jpg"
+                        ><i class="fa fa-search-plus" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <a href="#"
+                      >View project<i
+                        class="fa fa-angle-double-right"
+                        aria-hidden="true"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single gallery Item -->
+        <div class="gra web portfolio_gallery_iteam">
+          <img src="img/project-img/pro-2.jpg" alt="" />
+          <!-- single Content-->
+          <div class="single_content">
+            <!-- Border Layer -->
+            <div class="border-layer">
+              <div class="fancy-table">
+                <div class="fancy-table-cell">
+                  <!-- Project Title-->
+                  <div class="project_title text-center">
+                    <div class="image_zoom_in">
+                      <a class="gallery_img" href="img/project-img/pro-2.jpg"
+                        ><i class="fa fa-search-plus" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <a href="#"
+                      >View project<i
+                        class="fa fa-angle-double-right"
+                        aria-hidden="true"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single gallery Item -->
+        <div class="gra oth portfolio_gallery_iteam">
+          <img src="img/project-img/pro-5.jpg" alt="" />
+          <!-- single Content-->
+          <div class="single_content">
+            <!-- Border Layer -->
+            <div class="border-layer">
+              <div class="fancy-table">
+                <div class="fancy-table-cell">
+                  <!-- Project Title-->
+                  <div class="project_title text-center">
+                    <div class="image_zoom_in">
+                      <a class="gallery_img" href="img/project-img/pro-3.jpg"
+                        ><i class="fa fa-search-plus" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <a href="#"
+                      >View project<i
+                        class="fa fa-angle-double-right"
+                        aria-hidden="true"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single gallery Item -->
+        <div class="mob web portfolio_gallery_iteam">
+          <img src="img/project-img/pro-7.jpg" alt="" />
+          <!-- single Content-->
+          <div class="single_content">
+            <!-- Border Layer -->
+            <div class="border-layer">
+              <div class="fancy-table">
+                <div class="fancy-table-cell">
+                  <!-- Project Title-->
+                  <div class="project_title text-center">
+                    <div class="image_zoom_in">
+                      <a class="gallery_img" href="img/project-img/pro-4.jpg"
+                        ><i class="fa fa-search-plus" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <a href="#"
+                      >View project<i
+                        class="fa fa-angle-double-right"
+                        aria-hidden="true"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single gallery Item -->
+        <div class="gra oth portfolio_gallery_iteam">
+          <img src="img/project-img/pro-6.jpg" alt="" />
+          <!-- single Content-->
+          <div class="single_content">
+            <!-- Border Layer -->
+            <div class="border-layer">
+              <div class="fancy-table">
+                <div class="fancy-table-cell">
+                  <!-- Project Title-->
+                  <div class="project_title text-center">
+                    <div class="image_zoom_in">
+                      <a class="gallery_img" href="img/project-img/pro-5.jpg"
+                        ><i class="fa fa-search-plus" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <a href="#"
+                      >View project<i
+                        class="fa fa-angle-double-right"
+                        aria-hidden="true"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single gallery Item -->
+        <div class="mob oth portfolio_gallery_iteam">
+          <img src="img/project-img/pro-5.jpg" alt="" />
+          <!-- single Content-->
+          <div class="single_content">
+            <!-- Border Layer -->
+            <div class="border-layer">
+              <div class="fancy-table">
+                <div class="fancy-table-cell">
+                  <!-- Project Title-->
+                  <div class="project_title text-center">
+                    <div class="image_zoom_in">
+                      <a class="gallery_img" href="img/project-img/pro-5.jpg"
+                        ><i class="fa fa-search-plus" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <a href="#"
+                      >View project<i
+                        class="fa fa-angle-double-right"
+                        aria-hidden="true"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single gallery Item -->
+        <div class="mob web portfolio_gallery_iteam">
+          <img src="img/project-img/pro-4.jpg" alt="" />
+          <!-- single Content-->
+          <div class="single_content">
+            <!-- Border Layer -->
+            <div class="border-layer">
+              <div class="fancy-table">
+                <div class="fancy-table-cell">
+                  <!-- Project Title-->
+                  <div class="project_title text-center">
+                    <div class="image_zoom_in">
+                      <a class="gallery_img" href="img/project-img/pro-4.jpg"
+                        ><i class="fa fa-search-plus" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <a href="#"
+                      >View project<i
+                        class="fa fa-angle-double-right"
+                        aria-hidden="true"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single gallery Item -->
+        <div class="mob oth portfolio_gallery_iteam">
+          <img src="img/project-img/pro-3.jpg" alt="" />
+          <!-- single Content-->
+          <div class="single_content">
+            <!-- Border Layer -->
+            <div class="border-layer">
+              <div class="fancy-table">
+                <div class="fancy-table-cell">
+                  <!-- Project Title-->
+                  <div class="project_title text-center">
+                    <div class="image_zoom_in">
+                      <a class="gallery_img" href="img/project-img/pro-3.jpg"
+                        ><i class="fa fa-search-plus" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                    <a href="#"
+                      >View project<i
+                        class="fa fa-angle-double-right"
+                        aria-hidden="true"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Our Portfolio Area End *****  -->
 
+    <!-- ***** Clients Words Area Start ***** -->
 
+    <!-- ***** Clients Words Area End ***** -->
 
+    <!-- *****  Our Blog Area Start *****  -->
 
+    <!-- *****  Our Blog Area End *****  -->
 
+    <!-- *****  Our partner Area Start *****  -->
 
+    <!-- *****  Our partner Area End *****  -->
 
+    <!-- ***** Contact Area End *****  -->
+    <section class="contact_us_area section_padding_90_0" id="contact">
+      <div class="container">
+        <div class="row">
+          <!-- Heading Text -->
+          <div class="col-12">
+            <div class="section-heading text-center">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <h2>Get In Touch</h2>
+            </div>
+          </div>
+        </div>
 
+        <div class="row align-items-center">
+          <div class="col-12 col-md-9">
+            <!-- Contact Form -->
+            <div class="contact_from_area clearfix">
+              <div class="contact_form">
+                <form action="" method="post" id="main_contact_form">
+                  <div class="contact_input_area">
+                    <div id="success_fail_info"></div>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="conatct_heading">
+                          <h2>Drop Line Here</h2>
+                        </div>
+                      </div>
+                      <!-- Form Group -->
+                      <div class="col-12 col-md-6">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            name="name"
+                            id="name"
+                            placeholder="Your Name"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <!-- Form Group -->
+                      <div class="col-12 col-md-6">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            name="number"
+                            id="number"
+                            placeholder="Number *"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <!-- Form Group -->
+                      <div class="col-12 col-md-6">
+                        <div class="form-group">
+                          <input
+                            type="email"
+                            class="form-control"
+                            name="email"
+                            id="email"
+                            placeholder="E-mail"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <!-- Form Group -->
+                      <div class="col-12 col-md-6">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            name="subject"
+                            id="subject"
+                            placeholder="Subject"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <!-- Form Group -->
+                      <div class="col-12">
+                        <div class="form-group">
+                          <textarea
+                            name="message"
+                            class="form-control"
+                            id="message"
+                            cols="30"
+                            rows="8"
+                            placeholder="Your Message *"
+                            required
+                          ></textarea>
+                        </div>
+                      </div>
+                      <!-- Button -->
+                      <div class="col-12">
+                        <button type="submit" class="fancy-btn">
+                          Send Now
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-12 col-md-3">
+            <div class="contact_deatils">
+              <!-- Content Info -->
+              <div class="contact_info_area">
+                <div class="contact_info">
+                  <i class="icofont icofont-social-google-map"></i>
+                  <h5>Location</h5>
+                  <p>
+                    MBR international Ltd Portaland close, London, United
+                    Kingdom SL2 2LT
+                  </p>
+                </div>
+                <!-- Content Info -->
+                <div class="contact_info">
+                  <i class="icofont icofont-email"></i>
+                  <h5>E-mail</h5>
+                  <p>info@bizconic.com</p>
+                </div>
+                <!-- Content Info -->
+                <div class="contact_info">
+                  <i class="icofont icofont-ui-dial-phone"></i>
+                  <h5>Phone</h5>
+                  <p>+44 7459 785372</p>
+                </div>
+                <!-- Icon -->
+                <div class="footer_social_icon">
+                  <a
+                    href="https://www.facebook.com/Bizconic-Business-Solutions-100754286139214/"
+                    ><i
+                      class="fa fa-facebook"
+                      aria-hidden="true"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title="Facebook"
+                    ></i
+                  ></a>
 
+                  <a
+                    href="https://instagram.com/bizconic123?igshid=YmMyMTA2M2Y="
+                    ><i
+                      class="fa fa-instagram"
+                      aria-hidden="true"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title="Instagram"
+                    ></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/bizconic-business-solutions-b61971250"
+                    ><i
+                      class="fa fa-linkedin"
+                      aria-hidden="true"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title="Linkedin"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <!-- Google Maps -->
+      <div>
+        <br />
+      </div>
+    </section>
+    <!-- ***** Contact Area End *****  -->
 
+    <!-- ***** Bottom Footer Area Start *****  -->
+    <div class="bottom-footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer_area">
+              <!-- Footer Text -->
+              <div class="copywrite_text text-center">
+                <p>Made With <i class="fa fa-heart"></i> by Kalifo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <script src="js/jquery/jquery-2.2.4.min.js"></script>
-        <!-- Popper js -->
-        <script src="js/bootstrap/popper.min.js"></script>
-        <!-- Bootstrap-4 Beta JS -->
-        <script src="js/bootstrap/bootstrap.min.js"></script>
-        <!-- All Plugins JS -->
-        <script src="js/plugins/plugins.js"></script>
-        <script src="js/classy-nav.js"></script>
-        <!-- Active JS -->
-        <script src="js/active.js"></script>
-        <!-- Google Maps -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
-        <script src="js/map-active.js"></script>
-    </body>
-    
-    
-   
-    </html>
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap-4 Beta JS -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins JS -->
+    <script src="js/plugins/plugins.js"></script>
+    <script src="js/classy-nav.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
+    <script src="js/map-active.js"></script>
+  </body>
+</html>
